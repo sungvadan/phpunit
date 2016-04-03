@@ -36,3 +36,8 @@ Mocks
 
     // On déroule notre code normalement
     $observer->get();
+
+
+generate coverage
+============================================
+    .\vendor\bin\phpunit --coverage-html coverage
