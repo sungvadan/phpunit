@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit color="true">
+    <testsuites>
+        <testsuite name="My test">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src/VTP</directory>
+        </whitelist>
+    </filter>
+</phpunit>
